@@ -10,14 +10,11 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-  padding: 2rem 0;
-  gap: 2rem;
+  gap: 20px;
 }
 
 .hero-text {
-  flex: 1;
-  max-width: 500px;
+  flex: 1 1 300px;
 }
 
 .hero-text h2 {
@@ -50,10 +47,8 @@
 }
 
 .hero-image {
-  flex: 1;
-  text-align: center;
+  flex: 1 1 300px;
 }
-
 .hero-image img {
   max-width: 400px;
   width: 100%;
